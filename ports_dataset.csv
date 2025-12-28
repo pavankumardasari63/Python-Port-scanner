@@ -1,0 +1,29 @@
+port,service,protocol,risk_level,description
+21,FTP,TCP,High,Unencrypted file transfer service
+22,SSH,TCP,Medium,Secure remote login service
+23,Telnet,TCP,High,Unencrypted remote login service
+25,SMTP,TCP,Medium,Email transmission service
+53,DNS,UDP,Low,Domain name resolution service
+69,TFTP,UDP,High,Unsecured file transfer protocol
+80,HTTP,TCP,Medium,Web traffic without encryption
+110,POP3,TCP,High,Unencrypted email retrieval
+123,NTP,UDP,Low,Network time synchronization
+137,NetBIOS,TCP/UDP,High,Windows network service exposure
+139,NetBIOS-SSN,TCP,High,Windows file sharing service
+143,IMAP,TCP,Medium,Email retrieval service
+161,SNMP,UDP,High,Network management protocol
+389,LDAP,TCP/UDP,Medium,Directory service authentication
+443,HTTPS,TCP,Low,Secure encrypted web traffic
+445,SMB,TCP,High,Windows file sharing vulnerability
+465,SMTPS,TCP,Low,Secure email transmission
+587,SMTP-Submission,TCP,Low,Email submission service
+636,LDAPS,TCP,Low,Secure directory service
+989,FTPS,TCP,Low,Secure file transfer protocol
+1433,MS-SQL,TCP,High,Microsoft SQL database service
+1521,Oracle-DB,TCP,High,Oracle database service
+2049,NFS,TCP/UDP,High,Network file system service
+3306,MySQL,TCP,High,MySQL database service
+3389,RDP,TCP,High,Remote desktop service
+5432,PostgreSQL,TCP,High,PostgreSQL database service
+5900,VNC,TCP,High,Remote graphical desktop
+8080,HTTP-Proxy,TCP,Medium,Alternative web proxy service
